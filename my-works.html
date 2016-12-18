@@ -1,0 +1,203 @@
+
+<!-- SVG--><!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <script src="/assets/js/foundation.js" defer></script>
+    <script src="/assets/js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header header-portfolio">
+        <div class="header-nav">
+          <ul class="header-nav__social-list">
+            <li class="header-nav__social-item"><a class="header-nav__social-link" href="https://vk.com/id136516410" target="_blank">
+                <svg class="social-icon">
+                  <use xlink:href="./assets/img/sprite.svg#vk"></use>
+                </svg></a></li>
+            <li class="header-nav__social-item"><a class="header-nav__social-link" href="https://github.com/ueruxon" target="_blank">
+                <svg class="social-icon">
+                  <use xlink:href="./assets/img/sprite.svg#github"></use>
+                </svg></a></li>
+            <li class="header-nav__social-item"><a class="header-nav__social-link" href="#" target="_blank">
+                <svg class="social-icon">
+                  <use xlink:href="./assets/img/sprite.svg#in"></use>
+                </svg></a></li>
+          </ul>
+          <div class="header-nav__social-menu" id="toggle"><span class="menu-top"></span><span class="menu-middle"></span><span class="menu-bottom"></span></div>
+        </div>
+        <div class="header-about header-portfolio__about-portfolio">
+          <svg class="sprite-header portfolio-sprite">
+            <use xlink:href="./assets/img/sprite.svg#portfolio_header"></use>
+          </svg><img class="header-about__avatar" src="./assets/img/avatar.jpg">
+          <h1 class="header-portfolio__title">Матвейчук Дмитрий</h1>
+          <p class="header-about__text">Личный сайт разработчика</p>
+        </div>
+        <div class="header-scroll"><a class="header-scroll_link" href="#">
+            <svg class="header-scroll__arrow">
+              <use xlink:href="./assets/img/sprite.svg#arrow_down"></use>
+            </svg></a></div>
+        <div class="header-triangle triangle-about traingle-works"><svg xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1000 85" preserveaspectratio="none" class="traingle">
+<polygon class = "left" points="0,0   0,86   500.8,86   500.8,75.5"></polygon>
+<polygon class = "right right-works" points="1000,0   1000,86   500,86   500,75.5"></polygon>
+</svg>
+        </div>
+        <div class="overlay" id="overlay">
+          <nav class="overlay-menu">
+            <ul>
+              <li><a href="my-works.html">Мои работы</a></li>
+              <li><a href="blog.html">Блог</a></li>
+              <li><a href="about-me.html">Обо мне</a></li>
+              <li><a href="index.html">Авторизация</a></li>
+            </ul>
+          </nav>
+        </div>
+      </header>
+      <div class="works-caption">
+        <div class="works-container">
+          <svg class="sprite-works">
+            <use xlink:href="./assets/img/sprite.svg#works_header"></use>
+          </svg>
+          <h1 class="works-caption__title title-h1">Мои работы</h1>
+        </div>
+      </div>
+      <section class="works clearfix">
+        <div class="works__left">
+          <div class="works-slider__content">
+            <div class="works-slider__content-wrapper">
+              <div class="works-slider__display"><img class="works-slider__display-pic" src=""></div>
+              <div class="works-slider__item-about">
+                <div class="works__subtitle">
+                  <div class="subtitle"></div>
+                </div>
+                <div class="works__content-desc"></div>
+                <div class="works__content-btn"><a class="works__content-view" href="#"><i class="fa works__content-view-icon fa-link">Посмотреть сайт</i></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="works__right">
+          <div class="works-slider">
+            <div class="works-slider__controls"><a class="works-slider__control-btn works-slider__control-btn_left" href="#">
+                <ul class="works-slider__control-list">
+                  <li class="works-slider__control-item" data-full="./assets/img/works/work-2.png" data-title="Агентсво интернет решений ITLoft" data-skills="node" data-link="http://itloft.ru/"><img class="works-slider__control-img" src="./assets/img/works/work-2.png"></li>
+                  <li class="works-slider__control-item" data-full="./assets/img/works/work-1.png" data-title="Портал обучающих уроков LoftBlog" data-skills="html5, CSS3, javascript, php" data-link="http://loftschool.com/"><img class="works-slider__control-img" src="./assets/img/works/work-1.png"></li>
+                  <li class="works-slider__control-item" data-full="./assets/img/works/work-3.png" data-title="Агентсво интернет решений ITLoft" data-skills="Ruby on Rails, javascript, RESTful" data-link="http://loftblog.ru/"><img class="works-slider__control-img" src="./assets/img/works/work-3.png"></li>
+                  <li class="works-slider__control-item" data-full="./assets/img/works/work-4.png" data-title="Сайт Атма йога" data-skills="UX, design, seo" data-link="http://atmayoga.ru/"><img class="works-slider__control-img" src="./assets/img/works/work-4.png"></li>
+                </ul>
+                <svg class="slider-down">
+                  <use xlink:href="./assets/img/sprite.svg#portf_arrow_down"></use>
+                </svg></a><a class="works-slider__control-btn works-slider__control-btn_right" href="#">
+                <svg class="slider-up">
+                  <use xlink:href="./assets/img/sprite.svg#portf_arrow_up"></use>
+                </svg></a></div>
+          </div>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="contact-caption">
+          <div class="contact-container">
+            <svg class="sprite-contact">
+              <use xlink:href="./assets/img/sprite.svg#about_header"></use>
+            </svg>
+            <h1 class="contact-caption__title title-h1">Что обо мне говорят</h1>
+          </div>
+        </div>
+        <div class="contact-about">
+          <div class="contact-about__comment">
+            <div class="contact-about__text">
+              <p class="contact-about__message">
+                Этот парень проходил обучение веб-разработке не где-то, а в LoftSchool! 2 месяца только самых
+                тяжелых испытаний и бессонных ночей!
+              </p>
+            </div>
+            <div class="contact-about__from clearfix"><img class="contact-about__avatar" src="./assets/img/avatar-1.png">
+              <div class="contact-about__who">
+                <p class="contact-about__name">Ковальчук Дмитрий</p>
+                <p class="contact-about__position">Основатель Loftschool</p>
+              </div>
+            </div>
+          </div>
+          <div class="contact-about__comment">
+            <div class="contact-about__text">
+              <p class="contact-about__message">Этот код выдержет любые испытания. Только пожалуйста, не загружается сайт на слишком старых браузерах!</p>
+            </div>
+            <div class="contact-about__from clearfix"><img class="contact-about__avatar" src="./assets/img/avatar-2.png">
+              <div class="contact-about__who">
+                <p class="contact-about__name">Зар Захаров</p>
+                <p class="contact-about__position">Преподаватель</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-mail">
+          <div class="contact-wrapper">
+            <form class="contact-mail__data">
+              <div class="contact-mail__caption">
+                <h3 class="contact-mail__title title-h3">Связаться со мной</h3>
+              </div>
+              <div class="contact-form">
+                <input class="contact-form__text" type="text" placeholder="Имя" required oninvalid="this.setCustomValidity('Вы не ввели имя!')" oninput="setCustomValidity('')">
+                <input class="contact-form__text" type="text" placeholder="Email" required oninvalid="this.setCustomValidity('А эмейл указать?')" oninput="setCustomValidity('')">
+                <textarea class="contact-form__message" placeholder="Ваше сообщение"></textarea>
+              </div>
+              <div class="contact-send">
+                <ul class="contact-send__list">
+                  <li class="contact-send__item">
+                    <input type="submit" id="send-mail">
+                    <label class="contact-send__link" for="send-mail">Отправить</label>
+                  </li>
+                  <li class="contact-send__item">
+                    <input type="reset" id="reset-mail">
+                    <label class="contact-send__link" for="reset-mail">Очистить</label>
+                  </li>
+                </ul>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="send-mail">
+          <p class="send-mail__text">Сообщение отправлено</p>
+          <input class="send-mail__button" type="button" name="close" value="Закрыть">
+        </div>
+      </section>
+      <div class="empty"></div>
+    </div>
+    <footer class="footer clearfix">
+      <div class="footer-text">
+        <p class="footer-text__school">Этот сайт я сделал в рамках обучения в LoftSchool</p>
+        <p class="footer-text__copy">© Матвейчук Дмитрий</p>
+        <p class="footer-text__copy">Создано в другой реальности | 2016</p>
+      </div>
+      <div class="footer-nav">
+        <ul class="footer-nav__list">
+          <li class="footer-nav__item"><a class="footer-nav__link" href="my-works.html">Мои работы</a></li>
+          <li class="footer-nav__item"><a class="footer-nav__link" href="about-me.html">Обо мне</a></li>
+          <li class="footer-nav__item"><a class="footer-nav__link" href="blog.html">Блог</a></li>
+          <li class="footer-nav__item"><a class="footer-nav__link" href="index.html">Главная</a></li>
+        </ul>
+        <ul class="footer-nav__social-list">
+          <li class="footer-nav__social-item"><a class="footer-nav__social-link" href="https://vk.com/id136516410" target="_blank">
+              <svg class="footer-icon">
+                <use xlink:href="./assets/img/sprite.svg#vk"></use>
+              </svg></a></li>
+          <li class="footer-nav__social-item"><a class="footer-nav__social-link" href="https://github.com/ueruxon" target="_blank">
+              <svg class="footer-icon">
+                <use xlink:href="./assets/img/sprite.svg#github"></use>
+              </svg></a></li>
+          <li class="footer-nav__social-item"><a class="footer-nav__social-link" href="#">
+              <svg class="footer-icon">
+                <use xlink:href="./assets/img/sprite.svg#in"></use>
+              </svg></a></li>
+        </ul>
+      </div>
+      <div class="footer-about">
+        <p class="footer-about__info">skype : dan1eldefo</p>
+        <p class="footer-about__info">thegobender@gmail.com</p>
+        <p class="footer-about__info">+38 095 329 ** **</p>
+        <p class="footer-about__info"> Луганск</p>
+      </div>
+    </footer>
+  </body>
+</html>

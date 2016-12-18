@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <script src="/assets/js/foundation.js" defer></script>
+    <script src="/assets/js/app.js" defer></script>
+  </head>
+  <body>
+    <div class="logo-sand"></div>
+    <div class="autorized-login">
+      <button class="autorized-login__link" id="flip">Авторизоваться</button>
+    </div>
+    <div class="autorized-block_wrapper flip-container">
+      <div class="autorized-block front" id="login">
+        <form class="autorized-block__form">
+          <div class="about-info"><img class="about-info__avatar" src="./assets/img/avatar.jpg">
+            <h1 class="about-info__title">Матвейчук Дмитрий</h1>
+            <p class="about-info__text">Личный сайт разработчика</p>
+          </div>
+          <div class="about-contacts">
+            <ul class="about-contacts__list">
+              <li class="about-contacts__item"><a href="https://vk.com/id136516410" target="_blank">
+                  <svg class="link-icon">
+                    <use xlink:href="./assets/img/sprite.svg#vk"></use>
+                  </svg></a></li>
+              <li class="about-contacts__item"><a href="https://github.com/ueruxon" target="_blank">
+                  <svg class="link-icon">
+                    <use xlink:href="./assets/img/sprite.svg#github"></use>
+                  </svg></a></li>
+              <li class="about-contacts__item"><a href="#" target="_blank">
+                  <svg class="link-icon">
+                    <use xlink:href="./assets/img/sprite.svg#in"></use>
+                  </svg></a></li>
+            </ul>
+          </div>
+          <div class="autorized-block__enter">
+            <ul class="about-buttons">
+              <li class="about-buttons__item"><a class="about-buttons__link" href="my-works.html">Мои работы</a></li>
+              <li class="about-buttons__item"><a class="about-buttons__link" href="about-me.html">Обо мне</a></li>
+              <li class="about-buttons__item"><a class="about-buttons__link" href="blog.html">Мой блог</a></li>
+            </ul>
+          </div>
+        </form>
+      </div>
+      <div class="autorized-block back" id="login">
+        <form class="autorized-block__form">
+          <h1 class="autorized-block__head">Авторизуйтесь</h1>
+          <div class="autorized-block__data autorized-block__login">
+            <input class="autorized-block__input-text" type="text" placeholder="Логин" name="login">
+            <div class="autorized_icon"><svg class="icon">
+<use xlink:href="./assets/img/sprite.svg#login"></use>
+</svg>
+            </div>
+          </div>
+          <div class="autorized-block__data autorized-block__password">
+            <input class="autorized-block__input-text" type="password" placeholder="Пароль" name="password">
+            <div class="autorized_icon"><svg class="icon">
+<use xlink:href="./assets/img/sprite.svg#password"></use>
+</svg>
+            </div>
+          </div>
+          <div class="autorized-block__popup">Вы не ввели логин</div>
+          <div class="autorized-block__data autorized-block__check"><input type="checkbox" name="checking" id="checkbox1"">
+            <label class="cheked-1" for="checkbox1">Я человек</label>
+          </div>
+          <div class="autorized-block__data autorized-block__capcha">
+            <p class="autorized-block__say">Вы точно не робот?</p>
+            <div class="autorized-block__choice"><input type="radio" name="robot" value="yes" id="radio-click1">
+              <label class="radio-choice som-text" for="radio-click1">Да</label><input type="radio" name="robot" value="no" id="radio-click2">
+              <label class="radio-choice" for="radio-click2">Не уверен</label>
+            </div>
+          </div>
+          <div class="autorized-block__enter">
+            <ul class="autorized-block__list">
+              <li class="autorized-block__item autorized-enter">
+                <input class="welcome-home" type="reset" value="" id="go_home">
+                <label class="autorized-block__link" for="go_home">На главную</label>
+              </li>
+              <li class="autorized-block__item">
+                <input type="submit" name="" value="" id="go_enter">
+                <label class="autorized-block__link" for="go_enter">Войти</label>
+              </li>
+            </ul>
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="autorized-block__footer">© Матвейчук Дмитрий | Cоздано ночью | 2016</div>
+  </body>
+</html>
